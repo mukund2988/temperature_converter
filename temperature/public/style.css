@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(20, 20, 128), rgb(175, 51, 72), rgb(36, 22, 22));
+    font-family: Arial, sans-serif;
+    background-repeat: repeat;
+}
+
+.container {
+   background-image: url("https://images7.alphacoders.com/468/468458.jpg"); 
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+   max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1{
+    color: rgb(225, 104, 63);
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 70%;
+    padding: 8px;
+    border: 2px solid #479cde;
+    border-radius: 4px;
+}
+
+select {
+    margin: 2px;
+    width: 25%;
+    padding: 8px;
+    border: 2px solid #26e28d;
+    border-radius: 4px;
+}
+
+#convertButton{
+   
+    background-color:transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(243, 61, 77);
+    border-radius: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-style: italic;
+    color: #983972;
+    font-size: 18px;
+}

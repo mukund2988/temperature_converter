@@ -1,0 +1,17 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/data.js",
+  "scripts": {
+    "dev": "nodemon data.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1"
+  }
+}
